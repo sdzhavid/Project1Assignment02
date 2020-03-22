@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="532.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userAdminScreens.UserMainScreenController">
+   <children>
+      <Label layoutX="14.0" layoutY="30.0" text="UserScreen">
+         <font>
+            <Font size="53.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="typeVirusCB" layoutX="276.0" layoutY="29.0" onAction="#GetVirusesOnType" prefHeight="67.0" prefWidth="193.0" promptText="Type of Virus" />
+      <ListView fx:id="virusesListView" layoutX="226.0" layoutY="151.0" prefHeight="250.0" prefWidth="270.0" />
+      <Button fx:id="moreBT" layoutX="335.0" layoutY="431.0" mnemonicParsing="false" onAction="#showMore" text="More" />
+   </children>
+</AnchorPane>

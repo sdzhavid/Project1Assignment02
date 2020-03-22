@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="464.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="detailedVirusView.DetailedVirusScreenController">
+   <children>
+      <Label fx:id="nameLB" layoutX="237.0" layoutY="34.0" prefHeight="75.0" prefWidth="201.0" text="Selected Infecton" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="virusInfoTA" layoutX="98.0" layoutY="109.0" prefHeight="202.0" prefWidth="464.0" />
+      <ListView fx:id="symptomsListView" layoutX="37.0" layoutY="317.0" prefHeight="115.0" prefWidth="200.0" />
+      <Button fx:id="backBT" layoutX="553.0" layoutY="398.0" mnemonicParsing="false" onAction="#backToUserScreen" prefHeight="39.0" prefWidth="60.0" text="Back" />
+   </children>
+</AnchorPane>
